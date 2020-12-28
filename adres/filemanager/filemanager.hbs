@@ -1,0 +1,22 @@
+<div class="content">
+    <div class="napis">
+        <p class="nazwa">filemanager</p>
+        <a class="delete" href="/dellcontext">usuń dane o plikach z tablicy</a>
+    </div>
+    <div class="zawartosc">
+        <div class="rekord">
+            <p>id</p>
+            <p>obraz</p>
+            <p>name</p>
+            <p>size</p>
+            <p>type</p>
+            <p>-</p>
+            <p>-</p>
+            <p>-</p>
+
+        </div>
+        {{#each context}}
+        {{> rekords}}
+        {{/each}}
+    </div>
+</div>

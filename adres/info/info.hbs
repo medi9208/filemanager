@@ -1,0 +1,28 @@
+<div class="content">
+    <div class="napis">
+        <p class="nazwa">file info</p>
+    </div>
+    <div class="zawartosc info">
+        {{#if id}}
+        <div class="element">
+            <span>id:</span> {{id}}
+        </div>
+        <div class="element">
+            <span>name:</span> {{name}}
+        </div>
+        <div class="element">
+            <span>path:</span> {{path}}
+        </div>
+        <div class="element">
+            <span>size:</span> {{size}}
+        </div>
+        <div class="element">
+            <span>type:</span> {{type}}
+        </div>
+        <div class="element">
+            <span>savedata:</span> {{savedate}}
+        </div>
+        {{else}}
+        {{/if}}
+    </div>
+</div>

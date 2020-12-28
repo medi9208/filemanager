@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    font-family: DejaVu Sans Mono, monospace;
+}
+#navbar{
+    background-color: blue;
+    padding: 20px;
+
+}
+#navbar>a:first-child{
+    margin-left: 20px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.content{
+    align-items:stretch;
+    display:flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.napis{
+    width: 18%;
+    background-color: rgb(231, 231, 231);
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+}
+.zawartosc{
+    width:80%;
+}
+.delete{
+    color: red;
+
+}
+.upload > input{
+    font-size:20px;
+}
+.upload > button{
+    font-size:20px;
+}
+.upload{
+    margin-top:50px;
+    margin-left:50px;
+}
+.nazwa{
+    color:rgb(135, 135, 135);
+    font-size:30px;
+    font-weight: bold;
+}
+p{
+    color:blue;
+    font-size: 25px;
+}
+.rekord{
+    display: flex;
+    flex-direction: row;
+}
+.rekord >:first-child{
+    margin-left:15px;
+}
+.rekord a{
+    color:red;
+}
+.rekord > p{
+    width: 12%;
+    word-wrap: break-word;
+    margin-right:20px;
+}
+.nonhead > p{
+    font-size: 20px;
+}
+span{
+    color: blue;
+;
+    text-decoration: underline;
+    font-size:30px;
+}
+.info > :first-child{
+    margin-top:30px;
+}
+.info{
+    font-size:20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+} 
+.element{
+    margin-bottom: 10px;
+    margin-left: 30px
+}
+img{
+    height: 70px;
+}
